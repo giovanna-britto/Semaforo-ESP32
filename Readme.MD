@@ -87,6 +87,21 @@ Sendo assim, conforme evidenciado na imagem, os materiais utilizados para essa a
 - 1 Jumper macho-macho;
 - 4 Jumpers macho-fêmea;
 
+Aqui está uma tabela de especificação dos componentes utilizados na montagem do semáforo:
+
+| Componente             | Função                                            | Especificação                  | Quantidade |
+|------------------------|---------------------------------------------------|--------------------------------|------------|
+| Protoboard             | Base para montagem do circuito                    | -                              | 1          |
+| ESP-32                 | Microcontrolador para controle dos LEDs e LCD     | Modelo ESP32                   | 1          |
+| LED Vermelho           | Indicação de parada no semáforo                   | 5mm                            | 1          |
+| LED Amarelo            | Indicação de atenção no semáforo                  | 5mm                            | 1          |
+| LED Verde              | Indicação de passagem no semáforo                 | 5mm                            | 1          |
+| Resistor               | Proteção para os LEDs                             | 220Ω                           | 3          |
+| Display LCD 16x2       | Exibição de mensagens de status do semáforo       | I2C 16 colunas, 2 linhas       | 1          |
+| Jumper macho-macho     | Conexão entre o ESP-32 e componentes na protoboard | -                              | 1          |
+| Jumper macho-fêmea     | Conexão entre o ESP-32 e o display LCD            | -                              | 4          |
+
+
 **Passo 2: Os Leds são conectados na Protoboard**
 
 O segundo passo de execução consiste em colocar os leds na protoboard. Dessa forma, o lado negativo dos leds foram colocados diretamento no negativo da protoboard, visando a economia dos fios e tornando mais agradável visualmente. Além disso, os polos positivos do Led também foram conectados na linha de cada porta do ESP-32 (conforme consta na imagem abaixo).
