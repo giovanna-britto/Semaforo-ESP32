@@ -87,8 +87,7 @@ Sendo assim, conforme evidenciado na imagem, os materiais utilizados para essa a
 - 1 Jumper macho-macho;
 - 4 Jumpers macho-fêmea;
 
-Aqui está uma tabela de especificação dos componentes utilizados na montagem do semáforo:
-
+Os componentes acima foram organizados em uma tabela de especificação, conforme consta abaixo.
 | Componente             | Função                                            | Especificação                  | Quantidade |
 |------------------------|---------------------------------------------------|--------------------------------|------------|
 | Protoboard             | Base para montagem do circuito                    | -                              | 1          |
