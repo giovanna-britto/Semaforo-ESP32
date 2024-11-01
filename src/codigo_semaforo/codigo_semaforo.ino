@@ -47,15 +47,15 @@ void exibirMensagem(String sms1, String sms2) {
 
 // Loop principal que simula um ciclo de semáforo
 void loop() {
-  acenderLed(ledVermelho, 6000, false);       // Acende o LED vermelho por 6 segundos
   exibirMensagem("Atencao, Carro", "Passando!"); // Exibe mensagem no LCD
+  acenderLed(ledVermelho, 6000, false);       // Acende o LED vermelho por 6 segundos
 
+  exibirMensagem("Atencao, ainda", "nao passe!");
   acenderLed(ledAmarelo, 2000, false);        // Acende o LED amarelo por 2 segundos
-  exibirMensagem("Atencao, ainda", "nao passe!");
 
-  acenderLed(ledVerde, 2000, true);           // Acende o LED verde por 2 segundos e pisca
   exibirMensagem("Agora, pode", "passar!");
-
-  acenderLed(ledAmarelo, 2000, false);        // Acende o LED amarelo novamente por 2 segundos
+  acenderLed(ledVerde, 2000, true);           // Acende o LED verde por 2 segundos e pisca
+  
   exibirMensagem("Atencao, ainda", "nao passe!");
+  acenderLed(ledAmarelo, 2000, false);        // Acende o LED amarelo novamente por 2 segundos
 }
